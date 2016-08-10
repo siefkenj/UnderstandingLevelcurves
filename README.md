@@ -9,7 +9,7 @@ Given level curves, students should be able to mould a surface corresponding to 
 
 
 ## Development
-The models are developed in `openscad`, a computer language for describing solid 3d figures.  The figures are exported through `openscad` to the `.stl` format used by most 3D printers.  If you are on linux, you may batch convert the `.scad` files to `.stl` files with the command
+The models are developed in `openscad`, a computer program/language for describing solid 3d figures.  The figures are exported through `openscad` to the `.stl` format used by most 3D printers.  If you are on linux, you may batch convert the `.scad` files to `.stl` files with the command
 
     for i in shape-0*.scad
     do 
